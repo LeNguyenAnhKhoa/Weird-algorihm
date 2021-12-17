@@ -1,0 +1,6 @@
+- Với mỗi node trên cây ta lưu lại 1 vector chứa các dữ liệu của các pt trong đoạn l đến r theo thứ tự tăng dần
++ Sử dụng vector để lưu giữ liệu ở mỗi node
++ Sử dụng hàm back_inserter để hợp 2 node con lại lên node cha
+- Như vậy ta đã có 1 cây IT với mỗi node chứa toàn bộ dữ liệu
+- Khi truy vấn ta chỉ cần sử dụng hàm tìm kiếm nhị phân trên vector (lower_bound hoặc upper_bound)
+- Lưu ý: cách này ko hiệu quả đối với các bài có thao tác cập nhật phần tử
