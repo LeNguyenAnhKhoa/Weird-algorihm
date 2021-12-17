@@ -1,0 +1,5 @@
+- Đối với các bài truy vấn trên subtree, ta có thể xử lý offline bằng cách:
+B1: chọn 1 con có size là lớn nhất đặt là best
+B2: Xử lý các con ko phải best sau đó xóa dữ liệu ở các con này
+B3: Xử lý best nhưng ko xóa gì cả
+B4: Xử lý subtree hiện tại bằng cách vừa tính kết quả vừa cập nhật lại các con ko phải best
