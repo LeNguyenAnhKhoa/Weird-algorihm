@@ -1,0 +1,6 @@
+- tính trước 2 mảng l[d][i] và r[d][i]
++ l[d][i]: chứa thông tin từ mid -> l
++ r[d][i]: chứa thông tin từ mid -> r
++ d: độ sâu
+- __builtin_ctz(mask[l] ^ mask[r]): độ sâu của đoạn l -> r
+- cách này dùng để thay thế rmq khi mà các toán tử yêu cầu độ chính xác như xor...
