@@ -1,5 +1,3 @@
-const int N = 1e5 + 5;
-int n, cnt;
 struct IT{
     struct node{
         int l, r, sum;
